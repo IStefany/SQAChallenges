@@ -74,7 +74,7 @@ En esta clase solamente se maneja la configuración de las variables de entorno 
 
 En el método `setExcelDataToFeature`, se lee el excel y se prepara la información antes de ser enviada para sobreescribir los *examples* del archivo *.feature*
 
-`listFeatureFiles`, se emplea para identificar los archivos* feature* de la carpeta `features`, con la finalidad de identificar el archivo correcto para  la superposición de la data.
+`listOfFeatureFiles`, se emplea para identificar los archivos* feature* de la carpeta `features`, con la finalidad de identificar el archivo correcto para  la superposición de la data.
 
 `overrideFeatureFiles`, método que proporciona la sobreescribura de la data traida desde el excel al archivo *feature*.
 
