@@ -28,7 +28,7 @@ En el **@Then** se configura un método que permite validar que el nombre del pr
 
 ### MyFirstSearchHomePage
 
-En el directorio `pages` tenemos la clase `MyFirstSearchHomePage`, en la cual se mapeó la pagina web para obtener los xpath de la página principal. Se relacionan dos xpath; uno para ubicar la barra de busqueda del producto, y otro para ubicar el botón de *buscar*. Luego, tenemos dos métodos que permiten escribir el producto deseado en la barra de busqueda y dar click.
+En el directorio `pages` tenemos la clase `MyFirstSearchHomePage`, en la cual se mapeó la pagina web para obtener los xpath de la página principal. Se relacionan dos xpath; uno para ubicar la barra de busqueda del producto, y otro para ubicar el botón de *buscar*. Luego, tenemos dos métodos que permiten escribir el producto deseado en la barra de busqueda y dar click al botón de busqueda.
 
 ![Imagen3](https://user-images.githubusercontent.com/95836335/145444932-1aef9613-6478-4a50-8d4f-e74cc7bcfcda.png)
 
