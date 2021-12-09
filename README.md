@@ -40,6 +40,8 @@ Con el método *clickOnProduct* le estamos indicando al programa que de click al
 
 ![Imagen4](https://user-images.githubusercontent.com/95836335/145447739-f1a50fb9-7921-4bdc-822c-3bc1468cd4ec.png)
 
+### MyFirstSearchResultPage
+
 En el directorio `pages` tenemos una tercera clase llamada `MyFirstSearchResultPage`. En esta clase estamos buscando el nombre del producto en la página donde se encuentra el producto, y lo estamos retornando para poder hacer la comparación con lo que tenemos en Cucumber.
 
 ![Imagen5](https://user-images.githubusercontent.com/95836335/145452046-379a7402-5f58-4e1e-b9d9-2373dc9e6d7e.png)
