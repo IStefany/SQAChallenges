@@ -85,3 +85,9 @@ En el método `setExcelDataToFeature`, se lee el excel y se prepara la informaci
 Los métodos de la clase `ClsReadExcel` virtualmente se abre el archivo excel almacenado en la carpeta `src/main/resources/data`, se realiza la búsqueda de la hoja específica, se lee la Hoja como con sus respectivos tipos de datos (para este caso en específico, todas las *rows* son de tipo texto). Se obtienen las dimensiones de las filas que no están vacías (las filas con información), y finalmente se realiza una *Lista* con los valores de cada una de las celdas para que luego puedan ser utilizadas para la sobreescritura de los valores de los examples del archivo* .feature*.
 
 ![Imagen11](https://user-images.githubusercontent.com/95836335/145488579-25832c14-84d2-4f33-8e49-8b6395bb7bfc.png)
+
+### Resultado de la prueba
+
+Se puede apreciar que los 5 escenarios pasaron con éxito.
+
+![Imagen12](https://user-images.githubusercontent.com/95836335/145489369-8e605653-dde5-4d77-b9b1-fb09d5d24020.png)
