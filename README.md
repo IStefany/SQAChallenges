@@ -1,4 +1,11 @@
 # SQAChallenges
+
+### Contenido del Proyecto
+
+Se creó un proyecto llamado `MyFirstChallengeSqa` en el cual se crearon varias carpetas y clases, estructuradas de la siguiente manera:
+
+![ImagenProyectoGeneral](https://user-images.githubusercontent.com/95836335/145440959-99a50b7f-150a-420c-ba51-6e5a33542baa.png)
+
 ### Features
 
 ###  myFirstSearch.feature
@@ -17,4 +24,4 @@ En el **@Given** se configura el método para que permita abrir la página web e
 
 En el **@When** se configura un método para escribir los cinco productos en la barra de busqueda de la página web, darle click al botón de busqueda, y por último, dar click en el producto seleccionado. Para ello, hace el llamado de dos clases: `MyFirstSearchHomePage` y `MyFirstSearchProductsPage`.
 
-En el **@Then** se configura un método que permite validar que el nombre del producto buscado coincida en el archivo excel y en la página web.
+En el **@Then** se configura un método que permite validar que el nombre del producto buscado, coincida en el archivo excel y en la página web.
