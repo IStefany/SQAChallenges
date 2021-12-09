@@ -79,3 +79,9 @@ En el método `setExcelDataToFeature`, se lee el excel y se prepara la informaci
 `overrideFeatureFiles`, método que proporciona la sobreescribura de la data traida desde el excel al archivo *feature*.
 
 ![Imagen10](https://user-images.githubusercontent.com/95836335/145487823-48747246-11ff-4713-965e-7f24163cd2a4.png)
+
+### ClsReadExcel
+
+Los métodos de la clase `ClsReadExcel` virtualmente se abre el archivo excel almacenado en la carpeta `src/main/resources/data`, se realiza la búsqueda de la hoja específica, se lee la Hoja como con sus respectivos tipos de datos (para este caso en específico, todas las *rows* son de tipo texto). Se obtienen las dimensiones de las filas que no están vacías (las filas con información), y finalmente se realiza una *Lista* con los valores de cada una de las celdas para que luego puedan ser utilizadas para la sobreescritura de los valores de los examples del archivo* .feature*.
+
+![Imagen11](https://user-images.githubusercontent.com/95836335/145488579-25832c14-84d2-4f33-8e49-8b6395bb7bfc.png)
