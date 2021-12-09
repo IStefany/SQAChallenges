@@ -57,3 +57,11 @@ Con la clase `ClsRunner`, se pretende realizar la conexión de Cucumber con la c
 Con la clase `ClsAutomationBmcRunner`, lo que se busca es establecer el direccionamiento del archivo `feature` y el *glue* con la carpeta que contiene los snippets, y con el *BeforeSuite* para que se pueda hacer la sobre-escritura de los escenarios de los* examples* traidos desde el excel.
 
 ![Imagen7](https://user-images.githubusercontent.com/95836335/145485473-64fef998-6422-4119-870c-d56fcedeaff8.png)
+
+### BeforeSuite
+
+El fichero `BeforeSuite` se reutiliza como método de asignación de datos de *feature* de artefacto de automatización de actualización de datos dada la necesidad de asignar datos del archivo de Excel al archivo* .feature* antes de comenzar a ejecutar.
+
+![Imagen8](https://user-images.githubusercontent.com/95836335/145487087-a149058e-e143-4d56-8ad9-7ae79698909b.png)
+
+
