@@ -45,3 +45,15 @@ Con el método *clickOnProduct* le estamos indicando al programa que de click al
 En el directorio `pages` tenemos una tercera clase llamada `MyFirstSearchResultPage`. En esta clase estamos buscando el nombre del producto en la página donde se encuentra el producto, y lo estamos retornando para poder hacer la comparación con lo que tenemos en Cucumber.
 
 ![Imagen5](https://user-images.githubusercontent.com/95836335/145452046-379a7402-5f58-4e1e-b9d9-2373dc9e6d7e.png)
+
+### ClsRunner
+
+Con la clase `ClsRunner`, se pretende realizar la conexión de Cucumber con la clase `ClsAutomationBmcRunner`. De manera tal que, mediante las dependecias de Cucumber *With Serenity* podamos establecer la conexión entre el código y los snippets. Tomando como referencia el fichero *BeforeSuite* del Paquete `Utils` de la carpeta `src/main/java`.
+
+![Imagen6](https://user-images.githubusercontent.com/95836335/145484939-98469e7e-6a77-4135-a3bd-1b1db42b7d72.png)
+
+### ClsAutomationBmcRunner
+
+Con la clase `ClsAutomationBmcRunner`, lo que se busca es establecer el direccionamiento del archivo `feature` y el *glue* con la carpeta que contiene los snippets, y con el *BeforeSuite* para que se pueda hacer la sobre-escritura de los escenarios de los* examples* traidos desde el excel.
+
+![Imagen7](https://user-images.githubusercontent.com/95836335/145485473-64fef998-6422-4119-870c-d56fcedeaff8.png)
