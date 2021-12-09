@@ -64,4 +64,8 @@ El fichero `BeforeSuite` se reutiliza como método de asignación de datos de *f
 
 ![Imagen8](https://user-images.githubusercontent.com/95836335/145487087-a149058e-e143-4d56-8ad9-7ae79698909b.png)
 
+### ClsClassType
 
+En esta clase solamente se maneja la configuración de las variables de entorno para la manipulacion de los datos en los runner.
+
+![Imagen9](https://user-images.githubusercontent.com/95836335/145487433-5b2271db-07e8-45c4-8357-146e01539685.png)
