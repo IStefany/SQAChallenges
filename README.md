@@ -69,3 +69,13 @@ El fichero `BeforeSuite` se reutiliza como método de asignación de datos de *f
 En esta clase solamente se maneja la configuración de las variables de entorno para la manipulacion de los datos en los runner.
 
 ![Imagen9](https://user-images.githubusercontent.com/95836335/145487433-5b2271db-07e8-45c4-8357-146e01539685.png)
+
+### ClsDataToFeature
+
+En el método `setExcelDataToFeature`, se lee el excel y se prepara la información antes de ser enviada para sobreescribir los *examples* del archivo *.feature*
+
+`listFeatureFiles`, se emplea para identificar los archivos* feature* de la carpeta `features`, con la finalidad de identificar el archivo correcto para  la superposición de la data.
+
+`overrideFeatureFiles`, método que proporciona la sobreescribura de la data traida desde el excel al archivo *feature*.
+
+![Imagen10](https://user-images.githubusercontent.com/95836335/145487823-48747246-11ff-4713-965e-7f24163cd2a4.png)
